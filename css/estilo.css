@@ -126,10 +126,13 @@ body{
 	float:left;
 }
 .at_txt {
+	font-size:12pt;
 	color:#2196f3;
 }
 .at_desc {
 	font-weight:400;
+	margin-left:10px;
+	margin-bottom:10px;
 }
 .thumb1{
 	display:inline-block;
