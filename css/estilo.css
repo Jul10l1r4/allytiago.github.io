@@ -170,9 +170,9 @@ body{
 }
 section {
 	display:block;
-	width:520px;
+	width: 600px;
 	float:left;
-	margin-left:80px;
+	margin-left:10px;
 }
 
 aside {
@@ -320,7 +320,9 @@ footer {
 	margin-bottom:10px;
 }
 .posts h1{
-	display:block;
+	top:550px;
+	font-size:25.5pt;
+	padding: 20px 12px 0px 12px;
 	text-align:center;
 	font-weight:600;
 	position:absolute;
@@ -328,6 +330,7 @@ footer {
 	
 }
 .posts h6{
+	top:40px;
 	text-align:center;
 	font-weight:400;
 	display:block;
@@ -367,7 +370,29 @@ footer {
 .alerta strong {
 	color:#F44235;
 }
+
+figure h6{
+	text-align:center;
+}
+.subs-figure {
+	text-align:center;
+	
+}
+figure {
+	float:left;
+}
+figure a{
+	color:#444444;
+}
+.figpost {
+	margin-bottom: 5px;
+	display:block;
+}
 @media only screen and (max-width: 720px){
+
+	.subs-figure {
+		font-size:2pt;
+	}
 	.thumb5{
 		width:300px;
 		display:inline-block;
@@ -384,6 +409,7 @@ footer {
 		width:100%;
 	}
 	.posts h1{
+		font-size:18pt;
 		top:330px;
 		padding-top: 20px;
 	}
